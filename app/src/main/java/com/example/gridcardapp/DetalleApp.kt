@@ -12,7 +12,7 @@ class Detalle : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_detalle)
+        setContentView(R.layout.activity_detalle_app)
 
         tvNombre = findViewById(R.id.tv_Nombre2)
         tvDepartamento=findViewById(R.id.tv_Departamento2)
